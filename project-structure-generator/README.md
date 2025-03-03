@@ -1,39 +1,39 @@
 #  Project Structure Generator  📂
 
-Este script permite crear estructuras de carpetas para proyectos de forma automatizada. A continuación se detallan las **instrucciones** para ejecutarlo.  
+This script allows you to  automatically create folder structures for your projects. Below are the **instructions** to run it.
 
-## Requisitos:  
+## Requirements:  
 
-### 1️⃣ **Instalar Python**  
-Para ejecutar este script, necesitas tener **Python** instalado en tu computadora.  
+### 1️⃣ **Install Python**  
+To run this script you need to have **Python** installed on your computer.
 
-- **Descargar Python**: Ve a la página oficial de [Python](https://www.python.org/downloads/) y descarga la versión más reciente para tu sistema operativo.  
-- **Durante la instalación**, asegúrate de marcar la opción **"Add python.exe to PATH"**.  
+- **Download Python**: Go to official [Python] page  (https://www.python.org/downloads/) and download the latest version for your operating system.
+- **During instalation**, make sure to check the **"Add python.exe to PATH"** option.  
 
-### 2️⃣ **Instalar "Project Structure Generator"**  
-Copia todo el contenido de esta carpeta **`project-structure-generator/`** en el directorio donde guardarás tus proyectos.  
+### 2️⃣ **Install "Project Structure Generator"**  
+Copy all the contents of the **`project-structure-generator/`** folder into the directory where you will store your projects. 
 
-### 3️⃣ **Ejecutar el script**  
-- **Haz doble clic** en el archivo `new_project.py`.  
-- Se abrirá una terminal donde deberás ingresar el **nombre del proyecto** y seleccionar el **tipo de estructura** a utilizar.  
-- Una vez completado, la terminal se cerrará automáticamente y el proyecto estará listo en la misma carpeta.  
+### 3️⃣ **Run the script**  
+- **Double-click"** in the `new_project.py` file.
+- A terminal will open where you need to enter the **project name** and select the **structure type** to use.
+- Once completed, the terminal will close automatically and the project will be ready in the same folder.
 
 
-## Modificar o añadir estructuras de carpetas  
+## Modify or Add Folder Structures  
 
-En la carpeta **`structures/`** se encuentran los archivos que definen las estructuras de carpetas. Puedes modificarlos o añadir nuevos para personalizar tu flujo de trabajo.  
+Inside the **structures/** folder, you will find the files that define the folder structures. You can modify them or add new ones to customize your workflow.
 
-### 🔹 **Crear o modificar una estructura de carpetas**  
+### 🔹 **Create or Modify a Folder Structure**  
 
-1. Abre la carpeta **`structures/`** donde se encuentran los archivos de las estructuras.  
-2. Si deseas **modificar** una estructura de carpetas ya existente:
-   - Abre el archivo de la estructura que quieras cambiar (por ejemplo, **`animation.py`**).Dentro del archivo encontrarás un código similar a este:  
+1. Open the **structures/** folder where the structure files are located. 
+2. If you want to **modify** an existing folder structure:
+Open the file for the structure you want to change (e.g., **animation.py**). Inside the file, you will find code similar to this:
 
    ```python
-   # Nombre del tipo de proyecto
+   # Project type name
    project_type = "animation"
 
-   # Estructura de carpetas del proyecto
+   # Project folder structure
    def get_structure():
        return [
            "Designs/PSDs",
@@ -44,12 +44,12 @@ En la carpeta **`structures/`** se encuentran los archivos que definen las estru
        ]
    ```
    
-   - Edita la lista de carpetas dentro de la función `get_structure()` según tus necesidades.
+   - Edit the list of folders inside the get_structure() function according to your needs.
      
 
-   > **Nota**: Recuerda que cada `/` simboliza una carpeta anidada dentro de la anterior.  
+   > **Note**: Remember that each / represents a folder nested within the previous one.  
 
-   Ejemplo de estructura modificada (hemos decidido añadir dos subcarpetas dentro de /PSDs):
+   Example of a modified structure (we have decided to add two subfolders inside /PSDs):
 
    ```python
    def get_structure():
@@ -63,23 +63,23 @@ En la carpeta **`structures/`** se encuentran los archivos que definen las estru
        ]
    ```
 
-3. Si deseas **crear una nueva estructura**:
-   - Copia uno de los archivos existentes (por ejemplo, **`animation.py`**) y renómbralo con el nombre de la nueva estructura (por ejemplo, **`nuevo_nombre_de_estructura.py`**).
-   - Dentro del archivo, cambia el valor de `project_type` por el nombre de tu nueva estructura y edita la lista de carpetas dentro de la función `get_structure()`, como se muestra en el punto anterior.
+3. If you want to **create a new structure**:
+   - Copy one of the existing files (e.g., **animation.py**) and rename it with the name of the new structure (e.g., **new_structure_name.py**).
+   - Inside the file, change the `project_type` value to the name of your new structure and edit the list of folders inside the `get_structure()` function, as shown in the previous step.
 
    Ejemplo:
 
    ```python
-   # Definimos un nuevo nombre para la estructura
-   project_type = "nuevo_nombre_de_estructura"
+	# Define a new name for the structure
+	project_type = "new_structure_name"
 
-   # Define la estructura de carpetas
-   def get_structure():
-       return [
-           "NuevaCarpeta/Subcarpeta1",
-           "NuevaCarpeta/Subcarpeta2",
-           "OtroTipo/Subcarpeta/Subsubcarpeta",
-       ]
+	# Define the folder structure
+	def get_structure():
+		return [
+			"NewFolder/Subfolder1",
+			"NewFolder/Subfolder2",
+			"AnotherType/Subfolder/Subsubfolder",
+		]
    ```
-   **Asegúrate de que el nombre del proyecto (project_type) sea único para evitar confusiones.**
+   **Make sure the project name (project_type) is unique to avoid confusion..**
 

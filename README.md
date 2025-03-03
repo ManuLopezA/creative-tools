@@ -1,13 +1,13 @@
 # 🎨 Creative Tools  
 
-**Creative Tools** pretende ser un conjunto de herramientas para optimizar flujos de trabajo creativos.  
+**Creative Tools** aims to be a set of tools to optimize creative workflows.  
 
-📂 En cada carpeta iré subiendo una herramienta, script o pequeño programa que facilite tareas dentro del mundo del diseño, animación y los videojuegos.    
+📂 In each folder, I will upload a tool, script, or small program that makes tasks easier in the world of design, animation, and video games.    
 
-## 🤝 Contribuir  
-El proyecto está en evolución y abierto a ideas o colaboraciones.  
+## 🤝 Contribute  
+The project is evolving and open to ideas or collaborations.  
 
-## 🔗 Contacto  
+## 🔗 Contact  
 [🌍 LinkedIn](https://www.linkedin.com/in/ManuLopezA) | [🔗 Linktree](https://linktr.ee/manulopeza)  
 
-🚀 ¡Espero que estas herramientas te sean útiles!  
+🚀 I hope these tools are useful to you!  
