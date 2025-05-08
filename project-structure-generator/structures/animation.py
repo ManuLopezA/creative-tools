@@ -1,14 +1,18 @@
-# structures/animation.py
-
-#define el nombre del tipo de proyecto
+#defines project's name type
 project_type = "animation" 
 
-#define la estructura de carpetas
+
+#defines the folder structure for the project.
 def get_structure():
     return [
-        "PSDs",
-        "Spine/Export",
-        "Spine/Images",
-        "Sprites",
-        "Testing",
+        "art/concept/references",
+        "art/characters",
+        "art/assets",
+        "art/vfx",
+        "to-delete",        
+        "spine/export",
+        "spine/images",
+        "spine/json",
+        "spine/sprites",
+        "testing",
     ]

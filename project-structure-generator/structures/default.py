@@ -1,5 +1,3 @@
-# structures/default.py
-
 project_type = "default"
 
 def get_structure():
